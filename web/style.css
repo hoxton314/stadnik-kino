@@ -1,0 +1,45 @@
+.movie-info {
+  border: 5px solid black;
+}
+
+.movie-info div {
+  border: 1px solid red;
+}
+
+.movie-title,
+.movie-id,
+.movie-img {
+  text-align: center;
+}
+.movie-list {
+  position: relative;
+  margin: 45%;
+  margin-top: 0%;
+  margin-bottom: 1%;
+}
+.movie-img img {
+  width: 10%;
+  height: 10%;
+}
+.php-data {
+  display: none;
+}
+#seats {
+  position: absolute;
+  margin-left: calc(50% - 250px);
+  margin-top: 2%;
+  margin-bottom: 5%;
+  width: calc(20 * 25px);
+  height: calc(15 * 25px);
+  border: 1px solid red;
+}
+.seat {
+  position: absolute;
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+}
+#insertseats{
+    margin-left: 50%;
+    margin-right: 50%;
+}
